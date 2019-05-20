@@ -1,0 +1,47 @@
+:root{
+  --borderSize:10px;
+  --blur:0px;
+  --color:blue;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f48f8f;
+}
+.wrap{
+  width: 100%;
+  text-align: center;
+}
+.container{
+  max-width: 1000px;
+  margin:0 auto;
+}
+h1{
+  color:white;
+}
+h1 span{
+  color: var(--color);
+}
+.controls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.controls label{
+  font-size: 24px;
+  font-weight: bold;
+}
+.controls input{
+  margin: 0 20px;
+}
+.img-wrapper{
+  max-width: 600px;
+  margin:0 auto;
+  border:var(--borderSize) solid var(--color);
+}
+.example-img{
+  display: block;
+  width: 100%;
+  filter:blur(var(--blur));
+}

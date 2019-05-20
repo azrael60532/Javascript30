@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Day3 - Playing with CSS Variables and JS</title>
+  <link rel="stylesheet" href="./css/day3.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="container">
+      <h1>Update CSS Variables with <span>JS</span></h1>
+      <div class="controls">
+        <label for="changeBorder">Border</label>
+        <input type="range" id="changeBorder" name="borderSize" value="10" min="10" max="100" data-sizing="px">
+        <label for="changeBlur">Blur</label>
+        <input type="range" id="changeBlur" name="blur" value="0" data-sizing="px">
+        <label for="changeColor">Color</label>
+        <input type="color" id="changeColor" name="color" value="#0000ff">
+      </div>
+
+      <div class="img-wrapper">
+        <img class="example-img" src="./images/day3/example-img.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/day3.js"></script>
+</body>
+</html>
