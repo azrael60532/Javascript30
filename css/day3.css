@@ -6,7 +6,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #f48f8f;
+  background-color: #a7a7a7;
 }
 .wrap{
   width: 100%;
@@ -29,6 +29,7 @@ h1 span{
   margin-bottom: 40px;
 }
 .controls label{
+  color: white;
   font-size: 24px;
   font-weight: bold;
 }
